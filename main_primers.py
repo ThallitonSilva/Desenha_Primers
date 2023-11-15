@@ -107,11 +107,11 @@ if primers and genome:
 
         sidebar.write('Temperature')
 
-        p_tm_min, p_tm_max = sidebar.slider('Select the min/max temperature between primers',
+        p_tm_min, p_tm_max = sidebar.slider('Select the min/max TM of the primers',
                                             30, 90,
                                             (50, 70))
 
-        p_tm_opt = sidebar.select_slider('Select the optimal temperature',
+        p_tm_opt = sidebar.select_slider('Select the optimal TM',
                                          options=range(p_tm_min, p_tm_max+1),
                                          value=int(p_tm_min + ((p_tm_max - p_tm_min) / 2)))
 
