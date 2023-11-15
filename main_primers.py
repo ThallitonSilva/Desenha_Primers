@@ -68,8 +68,8 @@ if primers and genome:
         sidebar.write('Number')
 
         num_primers = sidebar.slider('Select primer pair numbers to draw',
-                                     75, 500,
-                                     250)
+                                     1, 200,
+                                     10)
 
         sidebar.divider()
 
