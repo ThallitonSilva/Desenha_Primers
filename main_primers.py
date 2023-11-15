@@ -154,5 +154,7 @@ if primers and genome:
                             data=excel,
                             file_name="Desenho_dos_Primers.xlsx",
                             mime="application/vnd.ms-excel")
+            
+        st.write('Agora vá até: https://teste-primers.streamlit.app/ e coloque essa tabela gerada junto com o genoma para testar os primers desenhados!!')    
 
 #################### ----------------------- ###################################### ----------------------- ############
