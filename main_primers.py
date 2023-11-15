@@ -4,7 +4,7 @@ from funcs_primers import *
 
 #################### ----------------------- ###################################### ----------------------- ############
 
-st.set_page_config(page_title='Teste dos Primers', layout='wide')
+st.set_page_config(page_title='Desenho dos Primers', layout='wide')
 
 hide_menu_style = """
         <style>
