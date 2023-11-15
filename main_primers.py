@@ -89,7 +89,7 @@ if primers and genome:
 
         p_size_opt = sidebar.select_slider('Select the optimal lenght',
                                            options=range(p_size_min, p_size_max+1),
-                                           value=p_size_min + ((p_size_max - p_size_min) / 2))
+                                           value=int(p_size_min + ((p_size_max - p_size_min) / 2)))
 
         sidebar.divider()
 
@@ -101,7 +101,7 @@ if primers and genome:
 
         p_gc_opt = sidebar.select_slider('Select the optimal %GC',
                                          options=range(p_gc_min, p_gc_max+1),
-                                         value=p_gc_min + ((p_gc_max - p_gc_min) / 2))
+                                         value=int(p_gc_min + ((p_gc_max - p_gc_min) / 2)))
 
         sidebar.divider()
 
@@ -113,7 +113,7 @@ if primers and genome:
 
         p_tm_opt = sidebar.select_slider('Select the optimal temperature',
                                          options=range(p_tm_min, p_tm_max+1),
-                                         value=p_tm_min + ((p_tm_max - p_tm_min) / 2))
+                                         value=int(p_tm_min + ((p_tm_max - p_tm_min) / 2)))
 
         sidebar.divider()
 
